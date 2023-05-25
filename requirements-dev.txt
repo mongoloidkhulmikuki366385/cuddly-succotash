@@ -1,2 +1,4 @@
 black==22.3.0
 eth-brownie>=1.16.0,<2.0.0
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
+vyper>=0.3.8 # not directly required, pinned by Snyk to avoid a vulnerability
